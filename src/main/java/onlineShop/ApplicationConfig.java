@@ -47,8 +47,8 @@ public class ApplicationConfig {
                      // change to your own RDS_Endpoint
                      // change the username and password
 		dataSource.setUrl("jdbc:mysql://laiproject-instance.c7t5cnj6wfy1.us-east-2.rds.amazonaws.com:3306/ecommerce?serverTimezone=UTC");
-		dataSource.setUsername("admin");
-		dataSource.setPassword("Yuriao1994");
+		dataSource.setUsername("");
+		dataSource.setPassword("");
 
 		return dataSource;
 	}
